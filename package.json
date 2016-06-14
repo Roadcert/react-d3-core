@@ -1,6 +1,6 @@
 {
   "name": "react-d3-core",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "react-d3 chart core component",
   "main": "./lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "rm -rf ./lib && BABEL_ENV=production ./node_modules/.bin/babel ./src --out-dir ./lib",
     "prod": "BABEL_ENV=production NODE_ENV=0 webpack --config webpack.prod.config.js && BABEL_ENV=production NODE_ENV=1 webpack --config webpack.prod.config.js"
   },
-  "author": "ElixirDoc team",
+  "author": "James Cordeiro - Roadcert",
   "license": "Apache 2.0",
   "devDependencies": {
     "babel-cli": "^6.6.4",
